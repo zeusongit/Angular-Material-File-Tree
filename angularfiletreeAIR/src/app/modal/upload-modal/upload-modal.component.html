@@ -1,0 +1,36 @@
+<section fxLayout="column" fxLayoutAlign="center center">
+    <h1 mat-dialog-title>Select File</h1>
+    <mat-dialog-content>
+      
+
+        <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+            <!-- This is the tree node template for leaf nodes -->
+            <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+              <!-- use a disabled button to provide padding for tree leaf -->
+              <button mat-icon-button disabled></button>
+              <button mat-button (click)="selectNode(node)">
+                  {{node.name}}
+              </button>
+            </mat-tree-node>
+            <!-- This is the tree node template for expandable nodes -->
+            <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
+              <button mat-icon-button matTreeNodeToggle
+                      [attr.aria-label]="'toggle ' + node.name">
+                <mat-icon class="mat-icon-rtl-mirror">
+                  {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+                </mat-icon>
+              </button>
+              <button mat-button (click)="selectNode(node)">
+                  {{node.name}}
+              </button>
+            </mat-tree-node>
+          </mat-tree>
+
+
+
+    </mat-dialog-content>
+    <mat-dialog-actions>
+      <button mat-raised-button color="primary" [disabled]="isDirectory" [mat-dialog-close]="true" (click)=onSelect(selectedNode)>OK</button>
+      <button mat-raised-button color="warn" [mat-dialog-close]="true">Cancel</button>
+    </mat-dialog-actions>
+</section>

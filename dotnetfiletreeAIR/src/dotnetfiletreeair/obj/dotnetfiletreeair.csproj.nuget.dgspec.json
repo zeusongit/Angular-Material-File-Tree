@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\AIR\\AshishAggarwal_Solution\\Exercise3\\dotnetfiletreeAIR\\src\\dotnetfiletreeair\\dotnetfiletreeair.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\AIR\\AshishAggarwal_Solution\\Exercise3\\dotnetfiletreeAIR\\src\\dotnetfiletreeair\\dotnetfiletreeair.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\AIR\\AshishAggarwal_Solution\\Exercise3\\dotnetfiletreeAIR\\src\\dotnetfiletreeair\\dotnetfiletreeair.csproj",
+        "projectName": "dotnetfiletreeair",
+        "projectPath": "D:\\Projects\\AIR\\AshishAggarwal_Solution\\Exercise3\\dotnetfiletreeAIR\\src\\dotnetfiletreeair\\dotnetfiletreeair.csproj",
+        "packagesPath": "C:\\Users\\ashis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AIR\\AshishAggarwal_Solution\\Exercise3\\dotnetfiletreeAIR\\src\\dotnetfiletreeair\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.0": {
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Server.IISIntegration": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.0.4, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "dotnet5.6",
+            "portable-net45+win8"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<section fxLayout="column" fxFlexAlign="stretch">
+  <mat-card fxFlex="500px" fxFlex.xs="100%">
+    <mat-card-title>Upload a file:</mat-card-title>
+    <form [formGroup]="uploadForm" autocomplete="off" novalidate (ngSubmit)="uploadFile(uploadForm.value)" fxLayout="column wrap"
+      fxLayoutAlign="center center" fxLayoutGap="10px">
+        <mat-card-content>
+            <mat-form-field>
+                <input readonly matInput type="text" placeholder="File" formControlName="fileName" id="fileName">
+                <mat-hint align="end">Browse to select a file</mat-hint>
+                <mat-error *ngIf="hasError('fileName', 'required')">File is required</mat-error>
+            </mat-form-field>
+            <button type="button" class="custom-margin-left" mat-raised-button color="accent" (click)="onBrowse()">Browse</button>
+        </mat-card-content>
+        <mat-card-actions align="center">
+            <button mat-raised-button color="primary" [disabled]="!uploadForm.valid">Upload</button>            
+        </mat-card-actions>
+    </form>
+    <div class="success-div">
+      <mat-progress-bar mode="indeterminate" *ngIf="isShow"></mat-progress-bar>
+       <span *ngIf="isShowMsg" class="uploadMsg">Upload Complete!</span> 
+    </div>
+  </mat-card>
+</section>

@@ -1,0 +1,11 @@
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\bin\Debug\netcoreapp1.0\dotnetfiletreeair.deps.json
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\bin\Debug\netcoreapp1.0\dotnetfiletreeair.runtimeconfig.json
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\bin\Debug\netcoreapp1.0\dotnetfiletreeair.runtimeconfig.dev.json
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\bin\Debug\netcoreapp1.0\dotnetfiletreeair.dll
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\bin\Debug\netcoreapp1.0\dotnetfiletreeair.pdb
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.csprojAssemblyReference.cache
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.csproj.CoreCompileInputs.cache
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.AssemblyInfoInputs.cache
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.AssemblyInfo.cs
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.dll
+D:\Projects\AIR\AshishAggarwal_Solution\Exercise3\dotnetfiletreeAIR\src\dotnetfiletreeair\obj\Debug\netcoreapp1.0\dotnetfiletreeair.pdb
